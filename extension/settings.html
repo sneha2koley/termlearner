@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="settings.css">
+  <title>TermLearner Settings</title>
+</head>
+<body>
+  <div class="settings-container">
+    <h1>Settings</h1>
+    <p class="subtitle">Configure your Gemini API key to enable automatic term explanations with web-grounded search.</p>
+
+    <div class="form-group">
+      <label for="apiKeyInput">Gemini API Key</label>
+      <input type="password" id="apiKeyInput" placeholder="Enter your Gemini API key">
+      <p class="help-text">
+        Get a free API key at
+        <a href="https://aistudio.google.com/apikey" target="_blank" rel="noopener">Google AI Studio</a>
+      </p>
+    </div>
+
+    <button class="btn-save" id="saveBtn">Save</button>
+
+    <div class="feedback" id="feedback"></div>
+
+    <a href="#" class="back-link" id="backLink">&larr; Back to terms</a>
+  </div>
+
+  <script src="settings.js"></script>
+</body>
+</html>
