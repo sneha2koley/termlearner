@@ -123,6 +123,6 @@ All configuration is in the content script defaults:
 - `chrome.storage.local` for persistence
 - `IntersectionObserver` for scroll tracking
 
-## License
+## LICENSE
 
-MIT
+[MIT](https://github.com/sneha2koley/termlearner/blob/main/LICENSE)
